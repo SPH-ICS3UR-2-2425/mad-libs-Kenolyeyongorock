@@ -19,11 +19,15 @@ public class Main {
 		String boysName = in.nextLine();
 		System.out.println("Enter a number betwenn 1 and 5");
 		int score = in.nextInt();
+		System.out.println("Enter a celebration");
+		String celebration = in.nextLine();
+		
+		
 		
 		
 		
 		//STORY
-		System.out.println("One day during a "+sport+" game, "+boysName+" scored a touchdown "");
+		System.out.println("One day during a "+sport+" game, "+boysName+" scored a touchdown. Everybody was "+celebration+" him");
 
 	}
 
